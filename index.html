@@ -1,0 +1,75 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>CSS Exercise Week 3</title>
+    <meta name="description" content="css exercise for comm 261 at ndsu  ">
+    <meta name="keywords" content="css, exercise, web, development   ">
+    <link rel="shortcut icon" type="image/png" href="assets/favicon.png" />
+    <script>
+        src = "http://html5shiv.googlecode.com/svn/trunk/html5.js" >
+    </script>
+    <link rel="stylesheet" href="css/main.css" media="all" />
+</head>
+<body>
+
+    <header class="main-header">
+        <img class="logo" src="assets/logo.png" alt="logo" />
+        <h1>Dakota Bistro</h1>
+        <ul class="main-nav">
+            <li class="dropdown">
+                <a href="breakfast_page.html" target="_blank">Breakfast</a>
+                <ul class="drop-nav">
+                    <li class="flyout">
+                        <a href="#">Drinks</a>
+                        <ul class="flyout-nav">
+                            <li><a href="#">Juice</a></li>
+                            <li><a href="#">Coffee</a></li>
+                            <li><a href="#">Tea</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Pancakes</a></li>
+                    <li><a href="#">Eggs</a></li>
+                </ul>
+            </li>
+
+            <li><a href="lunch_page.html" target="_blank">Lunch</a></li>
+            <li><a href="dinner_page.html" target="_blank">Dinner</a></li>
+        </ul>
+    </header>
+
+    <section>
+        <p>At the Dakota Bistro, you decide what will be included in your meal by choosing from our varied list of fresh ingredients. Then your meal is custom made for you - no dry meals sitting under heat lamps! You'll receive exactly the meal you want, fresh and hot.</p>
+
+        <p class="images">
+
+            <a href="breakfast_page.html" target="_blank">
+                <img src="img/breakfast.jpg" alt="breakfast example" height="100px" />
+            </a>
+
+            <a href="lunch_page.html" target="_blank">
+                <img src="img/lunch.jpg" alt="lunch example" height="100px" />
+            </a>
+
+            <a href="dinner_page.html" target="_blank">
+                <img src="img/dinner.jpg" alt="dinner example" height="100px" />
+            </a>
+
+        </p>
+
+    </section>
+
+    <div id="video">
+        <iframe width="420" height="315"
+                src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+    </div>
+
+    <button onclick="window.location.href='star_wars.html'">Star Wars</button>
+
+
+    <footer>
+        <h3>Our Mission</h3>
+        <blockquote><p>To feed you what you're hungry for, done the way you want it, using only the freshest ingredients.</p></blockquote>
+    </footer>
+</body>
+</html>
